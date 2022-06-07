@@ -220,3 +220,100 @@ button:hover , h2:hover{
     opacity: .5;
     cursor: pointer;
 }
+
+/* media query  */
+@media screen and (max-width:765px) {
+    header{
+        width: 100%;
+        padding: 25px;
+    }
+    .logo{
+        width: 30%;
+    }
+    .logo>img{
+        width: 100%;
+    }
+    .features{
+        width: 180px;
+        justify-content:space-between;
+    }
+    .getStratSection , .stayProductive{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        padding: 25px;
+    }
+    .left{
+        align-items: center;
+    }
+    .left>h1{
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+    }
+    .left>p{
+        font-size: 14px;
+        text-align: center;
+        width: 90%;
+    }
+    .inputField{
+        width: 100%;
+    }
+    
+    .inputField>input{
+        width: 100%;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+    .inputField>button{
+        width: 100%;
+        margin: 0;
+        height: 40px;
+    }
+    .stayProductive{
+        background-image: url(./images/bg-curve-mobile.svg) ;
+        padding-top: 100px;
+    }
+    .two>p{
+        text-align: start;
+        font-size: 13px;
+    }
+    .information{
+        width: 100%;
+        padding: 20px;
+    }
+    .information>p{
+        font-size: 14px;
+    }
+    .stayProductive{
+        padding-bottom: 100px;
+    }
+    .getEarly{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        padding: 50px 30px;
+    }
+    .three>h1{
+        font-size: 18px;
+    }
+    .three>p{
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .right{
+        align-items: center;
+    }
+    .right>input , .right>button{
+        width: 80%;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;
+        padding: 50px 30px;
+    }
+    .four{
+        justify-content: center;
+    }
+}
