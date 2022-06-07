@@ -215,3 +215,8 @@ footer{
 .four>i{
     font-size: 25px;
 }
+/* active state  */
+button:hover , h2:hover{
+    opacity: .5;
+    cursor: pointer;
+}
